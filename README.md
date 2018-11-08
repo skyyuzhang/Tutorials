@@ -22,3 +22,7 @@ git push -u origin master
 git submodule add https://github.com/UAVCAN/libcanar.git
 git add .gitmodules libcanard
 ```
+## update submodule
+```bash
+git submodule update --init --recursive
+```
