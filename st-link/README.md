@@ -21,4 +21,9 @@ make install
 whereis st-flash
 ```
 
+```bash
+cd /toolchain
+sudo cp 49-stlinkv1.rules 49-stlinkv2.rules 49-stlinkv2-1.rules /etc/udev/rules.d
+sudo service udev resart
+```
 # HAVE FUN!!!
