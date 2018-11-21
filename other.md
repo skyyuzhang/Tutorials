@@ -13,7 +13,12 @@ nano ~/.profile
 source ~/.profile
 ```
 
-STM32CubeMX on ubuntu
+# STM32CubeMX on ubuntu
 ```bahs
 sudo apt install libc6-i386
+```
+# serial ubuntu
+```bash
+whoami
+sudo usermod -aG dialout username
 ```
