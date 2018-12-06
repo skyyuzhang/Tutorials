@@ -15,6 +15,7 @@ git status
 git add .gitmodules <repository path>
 git commit -m "add libcanard"
 git submodule init
+git remote add origin https://github/user_name/project.git
 git push -u origin master
 ```
 ## demo
@@ -25,4 +26,9 @@ git add .gitmodules libcanard
 ## update submodule
 ```bash
 git submodule update --init --recursive
+```
+
+
+```bash
+git pull
 ```
